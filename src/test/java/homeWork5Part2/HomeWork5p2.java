@@ -1,15 +1,13 @@
 package homeWork5Part2;
 
-import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class homeWork5p2 {
+public class HomeWork5p2 {
     @Test
-    void DragDrop() throws  InterruptedException {
+    void dragDrop() {
         //(опциональное) Запрограммируйте Drag&Drop с помощью Selenide.actions()
         // - Откройте https://the-internet.herokuapp.com/drag_and_drop
         open("https://the-internet.herokuapp.com/drag_and_drop");

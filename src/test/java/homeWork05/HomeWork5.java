@@ -6,9 +6,9 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class homeWork5 {
+public class HomeWork5 {
     @Test
-    void SolutionEnterprize() throws  InterruptedException{
+    void solutionEnterprize() {
         //Открыть gitHub
         open("https://github.com");
 
