@@ -20,7 +20,7 @@ public class homeWork5 {
         $(byText("Solutions")).hover();
         $(byText("Enterprise")).click();
 
-        //Open needed page (exp. - "Build like the best.")
+        //Open page (exp. - "Build like the best.")
        $(".enterprise-hero h1").shouldHave(text("Build like the best"));
     }
 
