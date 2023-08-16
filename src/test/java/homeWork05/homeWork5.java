@@ -16,11 +16,11 @@ public class homeWork5 {
         //Открыть gitHub
         open("https://github.com");
 
-        //Открыть меню Solutions -> Enterprize с помощью команды hover для Solutions
+        //Open Solutions -> Enterprize with hover
         $(byText("Solutions")).hover();
         $(byText("Enterprise")).click();
 
-        //Убедитесь, что загрузилась нужная страница (например что заголовок - "Build like the best."
+        //Open needed page (exp. - "Build like the best.")
        $(".enterprise-hero h1").shouldHave(text("Build like the best"));
     }
 
